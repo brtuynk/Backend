@@ -15,7 +15,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag beratuyanik/backend:$(date +%s)
+      run: docker build . --file Dockerfile --tag beratuyanik/beratuyanik.com-api:$(date +%s)
+      
       
       
   push:
@@ -24,5 +25,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Oush the Docker image
-      run: docker push beratuyanik/backend:$(date +%s)
+    - name: Push the Docker image
+      run: docker push beratuyanik/beratuyanik.com-api:$(date +%s)
