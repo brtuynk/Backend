@@ -44,6 +44,8 @@ CORS_ALLOWED_ORIGINS = [
     'https://beratuyanik.com',
     'http://www.beratuyanik.com',
     'https://www.beratuyanik.com',
+    'http://api.beratuyanik.com/graphql',
+    'https://api.beratuyanik.com/graphql',
 ]
 
 GRAPHENE = {
