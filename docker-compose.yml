@@ -4,7 +4,7 @@ services:
   api:
     build: .
     restart: always
-    image: beratuyanik/beratuyanik.com-api:0.0.4
+    image: beratuyanik/beratuyanik.com-api:0.0.5
     platform: linux/amd64
     command: >
       bash -c "python /Backend/manage.py makemigrations &&
