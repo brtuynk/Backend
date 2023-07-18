@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     # This is to allow the request from the other websites as we request data from the react running url.
     'django_summernote'
 ]
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
