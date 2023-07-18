@@ -35,7 +35,18 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ALLOWED_ORIGINS = [
-    '*'
+    'http://localhost:3000',
+    'http://localhost:8000',
+    'http://54.86.112.189:8000',
+    'https://54.86.112.189:8000',
+    'http://54.86.112.189:3000',
+    'http://54.86.112.189:3000',
+    'http://api.beratuyanik.com',
+    'https://api.beratuyanik.com',
+    'http://beratuyanik.com',
+    'https://beratuyanik.com',
+    'http://www.beratuyanik.com',
+    'https://www.beratuyanik.com'
 ]
 
 GRAPHENE = {
