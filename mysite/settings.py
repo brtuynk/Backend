@@ -17,6 +17,7 @@ ALLOWED_HOSTS = ['api.beratuyanik.com',
                  '0.0.0.0',
                  'beratuyanik.com',
                  'www.beratuyanik.com',
+                 '54.86.112.189'
                  ]
 
 # Application definition
@@ -39,6 +40,10 @@ INSTALLED_APPS = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://localhost:8000',
+    'http://54.86.112.189:8000',
+    'https://54.86.112.189:8000',
+    'http://54.86.112.189:3000',
+    'http://54.86.112.189:3000',
     'http://api.beratuyanik.com',
     'https://api.beratuyanik.com',
     'http://beratuyanik.com',
