@@ -16,6 +16,7 @@ ALLOWED_HOSTS = ['api.beratuyanik.com',
                  '127.0.0.1',
                  '0.0.0.0',
                  'beratuyanik.com',
+                 'www.beratuyanik.com',
                  ]
 
 # Application definition
@@ -43,9 +44,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://beratuyanik.com',
     'https://beratuyanik.com',
     'http://www.beratuyanik.com',
-    'https://www.beratuyanik.com',
-    'http://api.beratuyanik.com/graphql',
-    'https://api.beratuyanik.com/graphql',
+    'https://www.beratuyanik.com'
 ]
 
 GRAPHENE = {
