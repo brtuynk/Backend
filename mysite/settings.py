@@ -12,13 +12,7 @@ SECRET_KEY = 'w%)3%2gvdneb+n7x@(cb7!su_fm_#7fuy-#2&up-$1%_bi7d0g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['api.beratuyanik.com',
-                 '127.0.0.1',
-                 '0.0.0.0',
-                 'beratuyanik.com',
-                 'www.beratuyanik.com',
-                 '54.86.112.189'
-                 ]
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -38,20 +32,10 @@ INSTALLED_APPS = [
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
+CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'http://localhost:8000',
-    'http://54.86.112.189:8000',
-    'https://54.86.112.189:8000',
-    'http://54.86.112.189:3000',
-    'http://54.86.112.189:3000',
-    'http://api.beratuyanik.com',
-    'https://api.beratuyanik.com',
-    'http://beratuyanik.com',
-    'https://beratuyanik.com',
-    'http://www.beratuyanik.com',
-    'https://www.beratuyanik.com'
+    '*'
 ]
 
 GRAPHENE = {
